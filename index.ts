@@ -1,6 +1,7 @@
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import express, { type Request, type Response } from "express";
 import { McpServerSingleton } from "./mcp-server";
+import "./prompts";
 import "./resources";
 import "./tools";
 
